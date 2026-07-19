@@ -1,7 +1,8 @@
 {
   "name": "@quantustik/mcp-server",
-  "version": "1.0.0",
-  "description": "Thin stdio proxy to Quantustik's hosted MCP server (https://quantustik.com/mcp) — S&P 500 quantum-model signals, forecasts, trade plans and market data for MCP clients (Claude Desktop, Cursor, Windsurf, etc.) that only support local stdio servers.",
+  "mcpName": "io.github.quantustik/mcp",
+  "version": "1.0.1",
+  "description": "Thin stdio proxy to Quantustik's hosted MCP server (https://quantustik.com/mcp) \u2014 S&P 500 quantum-model signals, forecasts, trade plans and market data for MCP clients (Claude Desktop, Cursor, Windsurf, etc.) that only support local stdio servers.",
   "license": "MIT",
   "type": "commonjs",
   "bin": {
