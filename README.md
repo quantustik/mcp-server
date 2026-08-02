@@ -1,9 +1,42 @@
-# @quantustik/mcp-server
+# Quantustik MCP server — quantum-model S&P 500 analytics
 
-A thin stdio proxy to [Quantustik](https://quantustik.com)'s hosted MCP
-server. It lets MCP clients that only support local stdio servers (Claude
-Desktop, Cursor, Windsurf, and others) reach our live, keyless,
-streamable-HTTP endpoint at `https://quantustik.com/mcp`.
+**[Quantustik](https://quantustik.com) is a stock-analytics platform that
+forecasts S&P 500 price paths with a quantum-mechanics model** (the
+Schrödinger equation and Feynman path integrals), layers a machine-learning
+classifier and a market-conditions read on top, and turns the result into
+**risk-first BUY / WAIT / AVOID / EXIT signals** — each with entry price,
+stop-loss, take-profit ladder and position sizing, plus **calibrated 90%
+confidence bands** and a **live, auditable track record that includes the
+losses**.
+
+**What the analysis gives you, per ticker and for the whole index:**
+
+- a signal with the full trade plan behind it (only actionable at ≥2:1
+  reward-to-risk), and a two-sided explanation of *why* the model made
+  the call;
+- multi-horizon price forecasts (1mo / 3mo / 6mo / 1y) with measured,
+  published calibration — never a bare point estimate;
+- whole-universe scans (conviction / direction / sector filters), a
+  risk-vetted shortlist of asymmetric setups, market conditions and an
+  overheating gauge, backtests, fundamentals, dividends and more —
+  24 tools in total.
+
+**Who it is for:** AI agents and their users doing market research —
+analysts, self-directed investors, and anyone who wants honest,
+uncertainty-explicit market context inside Claude, Cursor, ChatGPT or any
+other MCP client. Bullish calls are deliberately rare and earned: the model
+prefers saying WAIT to flattering you.
+
+> **Educational research only — not investment advice.** Nothing here is a
+> recommendation to buy or sell any security. Calibration is measured, not
+> guaranteed; past model performance does not predict future results.
+
+## What this package is
+
+A thin stdio proxy to Quantustik's hosted MCP server. It lets MCP clients
+that only support local stdio servers (Claude Desktop, Cursor, Windsurf,
+and others) reach the live, keyless, streamable-HTTP endpoint at
+`https://quantustik.com/mcp`.
 
 This package does not implement an MCP server itself, run any model
 locally, or cache any data. It is a small wrapper around
@@ -15,14 +48,8 @@ If your MCP client supports remote streamable-HTTP servers directly, you
 don't need this package at all — just point it at `https://quantustik.com/mcp`.
 This wrapper exists only for stdio-only clients.
 
-## What you get
-
-Live S&P 500 signals, forecasts, trade plans, market-regime data, and more —
-powered by Quantustik's quantum-mechanics-based forecasting model
-(Schrödinger equation + Feynman path integrals). See the full tool list at
+The full tool catalog lives at
 [quantustik.com/developers](https://quantustik.com/developers).
-
-**Educational and research purposes only — not personalized financial advice.**
 
 ## Usage
 
