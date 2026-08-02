@@ -1,7 +1,7 @@
 {
   "name": "@quantustik/mcp-server",
   "mcpName": "io.github.quantustik/mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quantustik: quantum-model S&P 500 analytics for AI agents — risk-first BUY/WAIT/AVOID/EXIT signals with trade plans, calibrated multi-horizon forecasts, whole-universe scans and market conditions. Educational research, not investment advice. This package is the stdio proxy to the hosted MCP server at https://quantustik.com/mcp.",
   "license": "MIT",
   "type": "commonjs",
