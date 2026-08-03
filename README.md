@@ -1,7 +1,10 @@
 # Quantustik MCP server — quantum-model S&P 500 analytics
 
-**[Quantustik](https://quantustik.com) is a stock-analytics platform that
-forecasts S&P 500 price paths with a quantum-mechanics model** (the
+**[Quantustik](https://quantustik.com) is a risk-first market-intelligence
+layer for humans and AI agents — calibrated probabilistic forecasts,
+transparent track records, and machine-readable decision support through
+REST and MCP.** It forecasts S&P 500 price paths with a quantum-mechanics
+model (the
 Schrödinger equation and Feynman path integrals), layers a machine-learning
 classifier and a market-conditions read on top, and turns the result into
 **risk-first BUY / WAIT / AVOID / EXIT signals** — each with entry price,
