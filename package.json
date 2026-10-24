@@ -1,0 +1,38 @@
+{
+  "name": "@quantustik/mcp-server",
+  "mcpName": "io.github.quantustik/mcp",
+  "version": "1.0.3",
+  "description": "S&P 500 market data: filings, earnings, insider, Congress and institutional trades. No forecasts. Stdio proxy to the hosted MCP server at https://quantustik.com/mcp.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "quantustik-mcp": "bin/quantustik-mcp.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantustik/mcp-server.git"
+  },
+  "homepage": "https://quantustik.com/developers",
+  "bugs": {
+    "url": "https://github.com/quantustik/mcp-server/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "quantustik",
+    "stock-analytics",
+    "sp500"
+  ],
+  "dependencies": {
+    "mcp-remote": "0.1.38"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
